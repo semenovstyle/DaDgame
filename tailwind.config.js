@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-     "./index.html",
+     "./game.html",
      "./src/**/*.{js,jsx,ts,tsx}"
     ],
   theme: {

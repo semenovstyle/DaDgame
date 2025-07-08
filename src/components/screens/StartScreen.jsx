@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from "react";
-import Preloader from "./src/components/Preloader";
+import Preloader from "./src/components/Preloader.jsx";
 import { imagesToPreload } from './src/preloadAssets.js'; // Укажите правильный путь
 
 export default function StartScreen({ onStart }) {

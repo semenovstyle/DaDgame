@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" /> <!-- Можете заменить на свою иконку -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Montage za 60 sekund</title>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <title>Drag and Drop Game</title> <!-- Можете поменять название игры -->
   </head>
   <body>
+    <!-- 
+      Это главный контейнер, в который React "вмонтирует" все ваше приложение.
+      Его ID ('root') должен совпадать с тем, что используется в src/main.jsx.
+    -->
     <div id="root"></div>
+
+    <!-- 
+      Это самая важная строка.
+      Она подключает и запускает весь ваш JavaScript-код, начиная с файла main.jsx.
+      Путь должен быть абсолютным от корня проекта, то есть начинаться с /src.
+    -->
     <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
