@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Game from './src/components/Game';
+import Game from './Game.jsx';
 import { useAspectScaling } from '../useAspectScaling';
 
 const GameContainer = () => {

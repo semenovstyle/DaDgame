@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { DndContext, closestCenter, PointerSensor, useSensor, useSensors, DragOverlay } from '@dnd-kit/core';
-import { useGameStore } from '../store/gameStore';
-import Scene from './Scene/Scene';
-import Warehouse from './Warehouse/Warehouse';
+import { useGameStore } from '../store/gameStore.js';
+import Scene from './Scene/Scene.jsx';
+import Warehouse from './Warehouse/Warehouse.jsx';
 
 export default function Game() {
   const handleDrop = useGameStore(state => state.handleDrop);

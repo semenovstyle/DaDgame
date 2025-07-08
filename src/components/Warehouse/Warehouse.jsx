@@ -1,6 +1,6 @@
 import React from 'react';
-import { useGameStore } from '../../store/gameStore';
-import { DraggableItem } from './DraggableItem';
+import { useGameStore } from '../../store/gameStore.js';
+import { DraggableItem } from './DraggableItem.jsx';
 
 export default function Warehouse() {
   const inventory = useGameStore(state => state.inventory);
